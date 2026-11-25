@@ -1,4 +1,4 @@
-PKG_DIR=D:\clawhunt\deliverables\3282  TABLE_MIN_ROWS=10
+PKG_DIR=.  TABLE_MIN_ROWS=10
 [PASS] V1a memo word count 2500-4000 — words=3718
 [PASS] V2 five-section structure x 5 subjects (+supplementary, +not-adopted) — 5 sections x 5 subjects + supplementary + reviewed-not-adopted
 [PASS] V3a benchmark table rows >= TABLE_MIN_ROWS — rows=26 (min 10)
