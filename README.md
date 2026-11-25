@@ -36,7 +36,7 @@ Prepared for the Business Blueprint module of the Member Space Platform (fiction
 ## One-command re-verification
 
 ```
-python -I -X utf8 D:/clawhunt/deliverables/3282/verify_3282.py
+python -I -X utf8 ./verify_3282.py
 ```
 
 Expected outcome: every check prints `[PASS]`, the run ends with `SELF-CHECK PASS`, and the exit code is 0. The script re-fetches all 10 registered source URLs live over HTTPS (network required); if any source stops returning HTTP 200, the check fails closed. Environment variables: `PKG_DIR` (package directory override, used for negative testing in a scratch copy) and `TABLE_MIN_ROWS` (minimum benchmark-table rows, default 10).
