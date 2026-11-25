@@ -1,0 +1,19 @@
+PKG_DIR=D:\clawhunt\deliverables\3282  TABLE_MIN_ROWS=10
+[PASS] V1a memo word count 2500-4000 — words=3718
+[PASS] V2 five-section structure x 5 subjects (+supplementary, +not-adopted) — 5 sections x 5 subjects + supplementary + reviewed-not-adopted
+[PASS] V3a benchmark table rows >= TABLE_MIN_ROWS — rows=26 (min 10)
+[PASS] V3b every row carries report_name/year/sample_scope/methodology/value — 5 required items non-empty on all 26 rows; names unique
+[PASS] V3c unit_type constrained to percentage/ratio/duration/headcount — unit_type values within ['duration', 'headcount', 'percentage', 'ratio']
+[PASS] V4 >= 2 side-by-side comparisons with explanations and Blueprint decisions — comparisons=5 explanations=5 blueprint-decisions=5
+[PASS] V5 core cited reports >= 4, all within last 3 years, stamped+200 — core report rows=6 across 5 distinct publishers (['Allwork.Space', 'CBRE', 'CoworkingCafe', 'Deskmag', 'JLL']); all 2024-2026, all 2026-11-19 HTTP 200
+[PASS] V6 source registry >= 8 rows, all fields present, ids unique — registry rows=10 (>=8), all required fields present
+[PASS] V7 all registered sources re-fetched live right now — all 10 registered sources re-fetched live right now: failures=[]
+[PASS] V8 memo/note/table citations == registry (bidirectional) — memo/note cites ['S01', 'S02', 'S03', 'S04', 'S05', 'S06', 'S07', 'S08', 'S09', 'S10'] all registered; core reports all cited
+[PASS] V9 no monetary values in any deliverable body or table — zero monetary-pattern hits across memo/note/README/table/registry
+[PASS] V10 sensitive-pattern scan zero hits — zero sensitive-pattern hits (key/absolute-path/localhost/private-key)
+[PASS] V11 no Chinese runs in deliverable bodies (en locale) — zero Chinese runs in deliverable bodies (en locale)
+[PASS] V12 acceptance criteria verbatim in README 4/4 — acceptance criteria 4/4 verbatim in README
+[PASS] V13 fictional-client statement present — fictional-client statement present in memo and README
+[PASS] V14 README scope mapping complete — README scope mapping covers S1-S7, D1-D4 and all four deliverable files
+
+SELF-CHECK PASS (16 checks)
